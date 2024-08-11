@@ -12,7 +12,7 @@
 #' @name annotate_cell_types
 #' @examples
 #' # Example usage:
-#' # annotate_cell_types(input = my_gene_data, tissuename = "liver", model = "gpt-4o", topgenenumber = 10, api_base = "https://api.default.com/v1/chat/completions")
+#' # annotate_cell_types(input = gene_marker_df, tissuename = "liver", model = "gpt-4o", topgenenumber = 10, api_base = "https://api.default.com/v1/chat/completions")
 
 library(httr2)
 
