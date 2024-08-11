@@ -2,7 +2,7 @@
 #'
 #' This function annotates cell types based on input gene markers.
 #'
-#' @param input A list or data frame containing gene markers.
+#' @param input A data frame containing gene markers,usual from FindAllMarkers(obj).
 #' @param tissuename A character string specifying the tissue name.
 #' @param model A character string specifying the model to use.
 #' @param topgenenumber An integer specifying the number of top genes to consider.
